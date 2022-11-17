@@ -6,5 +6,10 @@ pipeline {
            echo 'hi i am micro1'
            }
           }
+          stage ('test') {
+              steps {
+                  echo 'mission success'
+              }
+          }
          }
        }
